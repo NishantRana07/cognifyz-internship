@@ -1,0 +1,159 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+.navbar
+{
+    display:flex;
+    justify-items:space-between;
+    align-items: center;
+    height:10vh;
+    background-color: aliceblue;
+    position:sticky;
+    top:0%;
+}
+.left{
+    width:50%;
+    display:flex;
+    position:Relative;
+    margin-left:20px;
+}
+.left ul{
+    display:flex;
+    list-style-type:none;
+    margin:auto 20px;
+}
+.left ul li
+{
+    margin:0px 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.left ul li a:hover
+{
+    transition:all 0.2s ease-in;
+    color:rgb(3, 83, 232);
+    border-width: 0px 0px 0.2px 0px;
+    border-style: solid;
+    border-color:black;
+    transition:all 0.3s ease-in;
+}
+.left ul li a
+{
+    text-decoration: none;
+
+}
+.left img
+{
+    height:10vh;
+}
+
+.right{
+    width:40%;
+    position:Relative;
+    display: flex;
+    justify-content:center;
+}
+.right input
+{
+    width:60%;
+    margin:0px 5px;
+    border-radius: 8px;
+    padding:0px 3px;
+    transition: all 0.2s ease-out;
+}
+.right input:hover
+{
+    box-shadow:-2px 2px 5px rgb(240, 117, 117);
+    transition:all 0.4s ease-in;
+    transform: scale(1.02);
+    border-color:#c50808;
+    padding:0px 5px;
+}
+.right button
+{
+    border-radius:8px;
+    width:20%;
+    content: "Search";  
+    
+}
+.right button:hover{
+    background-color: rgb(151, 151, 237);
+    transition:all 0.4s ease-in;
+    transform: scale(1.02);
+    border-color:#2983dd68;
+}
+.lvl
+{
+    justify-content: start;
+    background-color: aqua;
+    position:relative;
+    display:inline-block;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.level {
+    margin-bottom: 20px;
+}
+
+.level h2 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+}
+
+.task {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.task h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.output a {
+    display: block;
+    padding: 5px 0;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.output a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
